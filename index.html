@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kalendaryo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MUSIC -->
+    <audio id="bgMusic" loop preload="auto">
+        <source src="music/kalendaryo.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <main class="screen">
+
+        <!-- POPUP -->
+        <div class="window" id="window">
+
+            <div class="window-header">
+
+                <span class="window-title">
+                    Kalendaryo
+                </span>
+
+                <button class="close-btn" id="closeBtn" type="button">
+                    ×
+                </button>
+
+            </div>
+
+
+            <div class="window-body">
+
+                <div class="warning-icon">
+                    ⚠
+                </div>
+
+                <div class="message" id="message">
+                    Ibalik ang
+                </div>
+
+                <div class="sub-message">
+                    nasa iyo
+                </div>
+
+                <button class="continue-btn" id="continueBtn" type="button">
+                    OK
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- PHOTO SECTION -->
+        <section class="photo-section" id="photoSection">
+
+            <div class="photo-frame">
+
+                <div class="photo-scroll">
+
+                    <div class="photo-item">
+                        <img src="pictures/1.jpg" alt="Picture 1">
+                    </div>
+
+                    <div class="photo-item">
+                        <img src="pictures/2.jpg" alt="Picture 2">
+                    </div>
+
+                    <div class="photo-item">
+                        <img src="pictures/3.jpg" alt="Picture 3">
+                    </div>
+
+                    <div class="photo-item">
+                        <img src="pictures/4.jpg" alt="Picture 4">
+                    </div>
+
+                    <div class="photo-item">
+                        <img src="pictures/5.jpg" alt="Picture 5">
+                    </div>
+
+                    <div class="photo-item">
+                        <img src="pictures/6.jpg" alt="Picture 6">
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="photo-text">
+
+                <span>❤️</span>
+
+                <p>
+                    para sa iyo
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- MUSIC BUTTON -->
+    <button class="music-button" id="musicButton" type="button">
+        ♪
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
